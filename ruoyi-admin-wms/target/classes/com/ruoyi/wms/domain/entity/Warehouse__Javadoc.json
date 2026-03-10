@@ -1,0 +1,1 @@
+{"doc":"","fields":[{"name":"warehouseCode","doc":" 编号\n"},{"name":"warehouseName","doc":" 名称\n"},{"name":"orderNum","doc":" 排序\n"},{"name":"remark","doc":" 备注\n"}],"enumConstants":[],"methods":[],"constructors":[]}

@@ -1,0 +1,1 @@
+{"doc":" 商品品牌视图对象 wms_item_brand\n\n @author zcc\n @date 2024-07-30\n","fields":[{"name":"brandName","doc":" 品牌名称\n"}],"enumConstants":[],"methods":[],"constructors":[]}

@@ -1,0 +1,256 @@
+2025-06-06 15:48:32 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-06-06 15:48:32 [main] INFO  com.ruoyi.RuoYiApplication - Starting RuoYiApplication using Java 17.0.2 with PID 16288 (E:\JAVA\wms-ruoyi-master\ruoyi-admin-wms\target\classes started by admin in E:\JAVA\wms-ruoyi-master)
+2025-06-06 15:48:32 [main] INFO  com.ruoyi.RuoYiApplication - The following 1 profile is active: "dev"
+2025-06-06 15:48:37 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2025-06-06 15:48:38 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource detect P6SPY plugin and enabled it
+2025-06-06 15:48:38 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Starting...
+2025-06-06 15:48:39 [main] INFO  com.zaxxer.hikari.pool.HikariPool - master - Added connection com.mysql.cj.jdbc.ConnectionImpl@713497cd
+2025-06-06 15:48:39 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Start completed.
+2025-06-06 15:48:39 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [slave] success
+2025-06-06 15:48:39 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [master] success
+2025-06-06 15:48:39 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource initial loaded [2] datasource,primary datasource named [master]
+2025-06-06 15:48:42 [main] INFO  c.r.common.redis.config.RedisConfig - 初始化 redis 配置
+2025-06-06 15:48:42 [main] INFO  org.redisson.Version - Redisson 3.29.0
+2025-06-06 15:48:42 [redisson-netty-1-5] INFO  o.r.connection.ConnectionsHolder - 1 connections initialized for localhost/127.0.0.1:6379
+2025-06-06 15:48:42 [redisson-netty-1-4] INFO  o.r.connection.ConnectionsHolder - 8 connections initialized for localhost/127.0.0.1:6379
+2025-06-06 15:48:44 [main] INFO  c.r.common.json.config.JacksonConfig - 初始化 jackson 配置
+2025-06-06 15:48:47 [main] INFO  io.undertow - starting server: Undertow - 2.3.13.Final
+2025-06-06 15:48:47 [main] INFO  org.xnio - XNIO version 3.8.8.Final
+2025-06-06 15:48:47 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.8.8.Final
+2025-06-06 15:48:47 [main] INFO  org.jboss.threads - JBoss Threads version 3.5.0.Final
+2025-06-06 15:48:47 [main] INFO  com.ruoyi.RuoYiApplication - Started RuoYiApplication in 15.65 seconds (process running for 18.412)
+2025-06-06 15:48:47 [main] INFO  c.r.s.runner.SystemApplicationRunner - 初始化OSS配置成功
+2025-06-06 15:48:47 [main] INFO  c.r.s.runner.SystemApplicationRunner - 加载参数缓存数据成功
+2025-06-06 15:48:47 [main] INFO  c.r.s.runner.SystemApplicationRunner - 加载字典缓存数据成功
+2025-06-06 15:49:52 [XNIO-1 task-2] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-06 15:49:52 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /captchaImage],无参数
+2025-06-06 15:49:53 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /captchaImage],耗时:[912]毫秒
+2025-06-06 15:50:02 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[POST /login],参数类型[json],参数:[{"username":"admin","password":"000000","code":"17","uuid":"6cd72a94adfa4eb3a712049088873ac1"}]
+2025-06-06 15:50:03 [schedule-pool-1] INFO  c.r.s.service.SysLogininforService - [127.0.0.1]内网IP[admin][Success][登录成功]
+2025-06-06 15:50:03 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[POST /login],耗时:[904]毫秒
+2025-06-06 15:50:03 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /getInfo],无参数
+2025-06-06 15:50:03 [XNIO-1 task-4] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /wms/merchant/listNoPage],无参数
+2025-06-06 15:50:03 [XNIO-1 task-5] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /wms/itemCategory/listNoPage],无参数
+2025-06-06 15:50:03 [XNIO-1 task-3] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /wms/warehouse/listNoPage],无参数
+2025-06-06 15:50:03 [XNIO-1 task-5] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /wms/itemCategory/listNoPage],耗时:[76]毫秒
+2025-06-06 15:50:03 [XNIO-1 task-4] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /wms/merchant/listNoPage],耗时:[79]毫秒
+2025-06-06 15:50:03 [XNIO-1 task-3] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /wms/warehouse/listNoPage],耗时:[91]毫秒
+2025-06-06 15:50:04 [XNIO-1 task-3] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /wms/itemCategory/treeselect],无参数
+2025-06-06 15:50:04 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /getInfo],耗时:[179]毫秒
+2025-06-06 15:50:04 [XNIO-1 task-3] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /wms/itemCategory/treeselect],耗时:[26]毫秒
+2025-06-06 15:50:04 [XNIO-1 task-3] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /getRouters],无参数
+2025-06-06 15:50:04 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /wms/itemBrand/listNoPage],无参数
+2025-06-06 15:50:04 [XNIO-1 task-3] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /getRouters],耗时:[42]毫秒
+2025-06-06 15:50:04 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /wms/itemBrand/listNoPage],耗时:[25]毫秒
+2025-06-06 15:50:07 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /wms/inventory/boardList/warehouse],参数类型[param],参数:[{"pageSize":["10"],"pageNum":["1"]}]
+2025-06-06 15:50:07 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /wms/inventory/boardList/warehouse],耗时:[140]毫秒
+2025-06-06 15:50:10 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /wms/inventory/boardList/warehouse],参数类型[param],参数:[{"pageSize":["10"],"pageNum":["1"]}]
+2025-06-06 15:50:10 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /wms/inventory/boardList/warehouse],耗时:[17]毫秒
+2025-06-06 15:50:18 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /wms/inventory/boardList/warehouse],参数类型[param],参数:[{"pageSize":["10"],"pageNum":["1"]}]
+2025-06-06 15:50:18 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /wms/inventory/boardList/warehouse],耗时:[15]毫秒
+2025-06-06 15:50:25 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /system/dict/data/type/wms_inventory_history_type],无参数
+2025-06-06 15:50:25 [XNIO-1 task-3] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /wms/inventoryHistory/list],参数类型[param],参数:[{"pageSize":["10"],"pageNum":["1"]}]
+2025-06-06 15:50:25 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /system/dict/data/type/wms_inventory_history_type],耗时:[31]毫秒
+2025-06-06 15:50:25 [XNIO-1 task-3] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /wms/inventoryHistory/list],耗时:[35]毫秒
+2025-06-06 15:50:29 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /system/dict/data/type/wms_receipt_type],无参数
+2025-06-06 15:50:29 [XNIO-1 task-3] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /system/dict/data/type/wms_receipt_status],无参数
+2025-06-06 15:50:29 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /system/dict/data/type/wms_receipt_type],耗时:[9]毫秒
+2025-06-06 15:50:29 [XNIO-1 task-3] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /system/dict/data/type/wms_receipt_status],耗时:[12]毫秒
+2025-06-06 15:50:29 [XNIO-1 task-5] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /wms/receiptOrder/list],参数类型[param],参数:[{"pageSize":["10"],"pageNum":["1"]}]
+2025-06-06 15:50:29 [XNIO-1 task-5] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /wms/receiptOrder/list],耗时:[43]毫秒
+2025-06-06 15:50:33 [XNIO-1 task-5] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /system/dict/data/type/wms_shipment_status],无参数
+2025-06-06 15:50:33 [XNIO-1 task-3] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /system/dict/data/type/wms_shipment_type],无参数
+2025-06-06 15:50:33 [XNIO-1 task-5] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /system/dict/data/type/wms_shipment_status],耗时:[6]毫秒
+2025-06-06 15:50:33 [XNIO-1 task-3] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /system/dict/data/type/wms_shipment_type],耗时:[6]毫秒
+2025-06-06 15:50:33 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /wms/shipmentOrder/list],参数类型[param],参数:[{"pageSize":["10"],"pageNum":["1"]}]
+2025-06-06 15:50:33 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /wms/shipmentOrder/list],耗时:[31]毫秒
+2025-06-06 15:50:36 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /system/dict/data/type/wms_movement_status],无参数
+2025-06-06 15:50:36 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /system/dict/data/type/wms_movement_status],耗时:[8]毫秒
+2025-06-06 15:50:36 [XNIO-1 task-3] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /wms/movementOrder/list],参数类型[param],参数:[{"pageSize":["10"],"pageNum":["1"]}]
+2025-06-06 15:50:36 [XNIO-1 task-3] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /wms/movementOrder/list],耗时:[24]毫秒
+2025-06-06 15:50:38 [XNIO-1 task-3] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /wms/shipmentOrder/list],参数类型[param],参数:[{"pageSize":["10"],"pageNum":["1"]}]
+2025-06-06 15:50:38 [XNIO-1 task-3] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /wms/shipmentOrder/list],耗时:[12]毫秒
+2025-06-06 15:50:42 [XNIO-1 task-3] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /wms/movementOrder/list],参数类型[param],参数:[{"pageSize":["10"],"pageNum":["1"]}]
+2025-06-06 15:50:42 [XNIO-1 task-3] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /wms/movementOrder/list],耗时:[15]毫秒
+2025-06-06 15:50:46 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /system/dict/data/type/merchant_type],无参数
+2025-06-06 15:50:46 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /system/dict/data/type/merchant_type],耗时:[60]毫秒
+2025-06-06 15:50:46 [XNIO-1 task-3] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /wms/merchant/list],参数类型[param],参数:[{"pageSize":["10"],"pageNum":["1"]}]
+2025-06-06 15:50:46 [XNIO-1 task-3] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /wms/merchant/list],耗时:[14]毫秒
+2025-06-06 15:50:47 [XNIO-1 task-3] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /wms/warehouse/listNoPage],无参数
+2025-06-06 15:50:47 [XNIO-1 task-3] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /wms/warehouse/listNoPage],耗时:[5]毫秒
+2025-06-06 15:50:49 [XNIO-1 task-3] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /wms/itemBrand/listNoPage],无参数
+2025-06-06 15:50:49 [XNIO-1 task-3] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /wms/itemBrand/listNoPage],耗时:[8]毫秒
+2025-06-06 15:50:51 [XNIO-1 task-3] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /wms/itemSku/list],参数类型[param],参数:[{"pageSize":["10"],"pageNum":["1"]}]
+2025-06-06 15:50:51 [XNIO-1 task-3] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /wms/itemSku/list],耗时:[29]毫秒
+2025-06-06 15:50:54 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /system/dict/data/type/sys_yes_no],无参数
+2025-06-06 15:50:54 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /system/dict/data/type/sys_yes_no],耗时:[3]毫秒
+2025-06-06 15:50:54 [XNIO-1 task-3] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /system/config/list],参数类型[param],参数:[{"pageSize":["10"],"pageNum":["1"]}]
+2025-06-06 15:50:54 [XNIO-1 task-3] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /system/config/list],耗时:[20]毫秒
+2025-06-06 15:51:01 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /system/dict/data/type/sys_normal_disable],无参数
+2025-06-06 15:51:01 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /system/dict/data/type/sys_normal_disable],耗时:[5]毫秒
+2025-06-06 15:51:01 [XNIO-1 task-3] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /system/dict/type/list],参数类型[param],参数:[{"pageSize":["10"],"pageNum":["1"]}]
+2025-06-06 15:51:01 [XNIO-1 task-3] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /system/dict/type/list],耗时:[24]毫秒
+2025-06-06 15:51:03 [XNIO-1 task-3] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /system/dict/data/type/sys_user_sex],无参数
+2025-06-06 15:51:03 [XNIO-1 task-4] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /system/config/configKey/sys.user.initPassword],无参数
+2025-06-06 15:51:03 [XNIO-1 task-3] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /system/dict/data/type/sys_user_sex],耗时:[3]毫秒
+2025-06-06 15:51:03 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /system/user/deptTree],无参数
+2025-06-06 15:51:03 [XNIO-1 task-5] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /system/user/list],参数类型[param],参数:[{"pageSize":["10"],"pageNum":["1"]}]
+2025-06-06 15:51:03 [XNIO-1 task-4] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /system/config/configKey/sys.user.initPassword],耗时:[27]毫秒
+2025-06-06 15:51:03 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /system/user/deptTree],耗时:[31]毫秒
+2025-06-06 15:51:03 [XNIO-1 task-5] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /system/user/list],耗时:[53]毫秒
+2025-06-06 15:51:04 [XNIO-1 task-5] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /system/role/list],参数类型[param],参数:[{"pageSize":["10"],"pageNum":["1"]}]
+2025-06-06 15:51:05 [XNIO-1 task-5] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /system/role/list],耗时:[29]毫秒
+2025-06-06 15:51:07 [XNIO-1 task-5] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /system/dict/data/type/sys_show_hide],无参数
+2025-06-06 15:51:07 [XNIO-1 task-5] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /system/dict/data/type/sys_show_hide],耗时:[3]毫秒
+2025-06-06 15:51:07 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /system/menu/list],无参数
+2025-06-06 15:51:07 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /system/menu/list],耗时:[36]毫秒
+2025-06-06 15:51:16 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[DELETE /system/menu/1823190638784757762],无参数
+2025-06-06 15:51:16 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[DELETE /system/menu/1823190638784757762],耗时:[27]毫秒
+2025-06-06 15:51:22 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /wms/receiptOrder/list],参数类型[param],参数:[{"pageSize":["10"],"pageNum":["1"]}]
+2025-06-06 15:51:22 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /wms/receiptOrder/list],耗时:[12]毫秒
+2025-06-06 16:10:13 [SpringApplicationShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.3.13.Final
+2025-06-06 16:10:13 [SpringApplicationShutdownHook] INFO  io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2025-06-06 16:10:13 [SpringApplicationShutdownHook] INFO  c.r.c.core.config.ThreadPoolConfig - ====关闭后台任务任务线程池====
+2025-06-06 16:10:13 [SpringApplicationShutdownHook] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource start closing ....
+2025-06-06 16:10:13 [SpringApplicationShutdownHook] INFO  c.b.d.d.d.DefaultDataSourceDestroyer - dynamic-datasource close the datasource named [slave] success,
+2025-06-06 16:10:13 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - master - Shutdown initiated...
+2025-06-06 16:10:13 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - master - Shutdown completed.
+2025-06-06 16:10:13 [SpringApplicationShutdownHook] INFO  c.b.d.d.d.DefaultDataSourceDestroyer - dynamic-datasource close the datasource named [master] success,
+2025-06-06 16:10:13 [SpringApplicationShutdownHook] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource all closed success,bye
+2025-06-06 16:13:45 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-06-06 16:13:45 [main] INFO  com.ruoyi.RuoYiApplication - Starting RuoYiApplication using Java 17.0.2 with PID 1684 (E:\JAVA\wms-ruoyi-master\ruoyi-admin-wms\target\classes started by admin in E:\JAVA\wms-ruoyi-master)
+2025-06-06 16:13:45 [main] INFO  com.ruoyi.RuoYiApplication - The following 1 profile is active: "dev"
+2025-06-06 16:13:49 [main] INFO  io.undertow.servlet - Initializing Spring embedded WebApplicationContext
+2025-06-06 16:13:50 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource detect P6SPY plugin and enabled it
+2025-06-06 16:13:50 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Starting...
+2025-06-06 16:13:50 [main] INFO  com.zaxxer.hikari.pool.HikariPool - master - Added connection com.mysql.cj.jdbc.ConnectionImpl@55c20a91
+2025-06-06 16:13:50 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Start completed.
+2025-06-06 16:13:50 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [slave] success
+2025-06-06 16:13:50 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [master] success
+2025-06-06 16:13:50 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource initial loaded [2] datasource,primary datasource named [master]
+2025-06-06 16:13:54 [main] INFO  c.r.common.redis.config.RedisConfig - 初始化 redis 配置
+2025-06-06 16:13:54 [main] INFO  org.redisson.Version - Redisson 3.29.0
+2025-06-06 16:13:54 [redisson-netty-1-5] INFO  o.r.connection.ConnectionsHolder - 1 connections initialized for localhost/127.0.0.1:6379
+2025-06-06 16:13:55 [redisson-netty-1-4] INFO  o.r.connection.ConnectionsHolder - 8 connections initialized for localhost/127.0.0.1:6379
+2025-06-06 16:13:57 [main] INFO  c.r.common.json.config.JacksonConfig - 初始化 jackson 配置
+2025-06-06 16:14:00 [main] INFO  io.undertow - starting server: Undertow - 2.3.13.Final
+2025-06-06 16:14:00 [main] INFO  org.xnio - XNIO version 3.8.8.Final
+2025-06-06 16:14:00 [main] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.8.8.Final
+2025-06-06 16:14:00 [main] INFO  org.jboss.threads - JBoss Threads version 3.5.0.Final
+2025-06-06 16:14:00 [main] INFO  com.ruoyi.RuoYiApplication - Started RuoYiApplication in 16.11 seconds (process running for 18.034)
+2025-06-06 16:14:01 [main] INFO  c.r.s.runner.SystemApplicationRunner - 初始化OSS配置成功
+2025-06-06 16:14:01 [main] INFO  c.r.s.runner.SystemApplicationRunner - 加载参数缓存数据成功
+2025-06-06 16:14:01 [main] INFO  c.r.s.runner.SystemApplicationRunner - 加载字典缓存数据成功
+2025-06-06 16:36:55 [XNIO-1 task-2] INFO  io.undertow.servlet - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-06 16:36:55 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /captchaImage],无参数
+2025-06-06 16:36:56 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /captchaImage],耗时:[858]毫秒
+2025-06-06 16:37:28 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /captchaImage],无参数
+2025-06-06 16:37:28 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /captchaImage],耗时:[10]毫秒
+2025-06-06 16:37:31 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[POST /login],参数类型[json],参数:[{"username":"admin","password":"000000","code":"0","uuid":"72303d23b8864289960783eca71efb33"}]
+2025-06-06 16:37:31 [schedule-pool-1] INFO  c.r.s.service.SysLogininforService - [127.0.0.1]内网IP[admin][Success][登录成功]
+2025-06-06 16:37:31 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[POST /login],耗时:[824]毫秒
+2025-06-06 16:37:31 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /getInfo],无参数
+2025-06-06 16:37:31 [XNIO-1 task-5] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /wms/itemCategory/listNoPage],无参数
+2025-06-06 16:37:31 [XNIO-1 task-4] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /wms/merchant/listNoPage],无参数
+2025-06-06 16:37:31 [XNIO-1 task-3] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /wms/warehouse/listNoPage],无参数
+2025-06-06 16:37:32 [XNIO-1 task-5] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /wms/itemCategory/listNoPage],耗时:[34]毫秒
+2025-06-06 16:37:32 [XNIO-1 task-4] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /wms/merchant/listNoPage],耗时:[34]毫秒
+2025-06-06 16:37:32 [XNIO-1 task-3] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /wms/warehouse/listNoPage],耗时:[60]毫秒
+2025-06-06 16:37:32 [XNIO-1 task-4] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /wms/itemCategory/treeselect],无参数
+2025-06-06 16:37:32 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /getInfo],耗时:[104]毫秒
+2025-06-06 16:37:32 [XNIO-1 task-4] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /wms/itemCategory/treeselect],耗时:[20]毫秒
+2025-06-06 16:37:32 [XNIO-1 task-4] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /getRouters],无参数
+2025-06-06 16:37:32 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /wms/itemBrand/listNoPage],无参数
+2025-06-06 16:37:32 [XNIO-1 task-4] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /getRouters],耗时:[27]毫秒
+2025-06-06 16:37:32 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /wms/itemBrand/listNoPage],耗时:[25]毫秒
+2025-06-06 16:37:34 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /wms/inventory/boardList/warehouse],参数类型[param],参数:[{"pageSize":["10"],"pageNum":["1"]}]
+2025-06-06 16:37:34 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /wms/inventory/boardList/warehouse],耗时:[154]毫秒
+2025-06-06 16:37:38 [XNIO-1 task-4] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /system/dict/data/type/wms_inventory_history_type],无参数
+2025-06-06 16:37:38 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /wms/inventoryHistory/list],参数类型[param],参数:[{"pageSize":["10"],"pageNum":["1"]}]
+2025-06-06 16:37:38 [XNIO-1 task-4] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /system/dict/data/type/wms_inventory_history_type],耗时:[23]毫秒
+2025-06-06 16:37:38 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /wms/inventoryHistory/list],耗时:[35]毫秒
+2025-06-06 16:37:39 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /wms/inventory/boardList/warehouse],参数类型[param],参数:[{"pageSize":["10"],"pageNum":["1"]}]
+2025-06-06 16:37:39 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /wms/inventory/boardList/warehouse],耗时:[19]毫秒
+2025-06-06 16:37:40 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /wms/inventory/boardList/item],参数类型[param],参数:[{"pageSize":["10"],"pageNum":["1"]}]
+2025-06-06 16:37:40 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /wms/inventory/boardList/item],耗时:[13]毫秒
+2025-06-06 16:37:42 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /wms/inventory/boardList/warehouse],参数类型[param],参数:[{"pageSize":["10"],"pageNum":["1"]}]
+2025-06-06 16:37:42 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /wms/inventory/boardList/warehouse],耗时:[16]毫秒
+2025-06-06 16:37:43 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /wms/inventory/boardList/item],参数类型[param],参数:[{"pageSize":["10"],"pageNum":["1"]}]
+2025-06-06 16:37:43 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /wms/inventory/boardList/item],耗时:[9]毫秒
+2025-06-06 16:37:46 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /wms/inventory/boardList/warehouse],参数类型[param],参数:[{"pageSize":["10"],"pageNum":["1"]}]
+2025-06-06 16:37:46 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /wms/inventory/boardList/warehouse],耗时:[10]毫秒
+2025-06-06 16:46:52 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /wms/inventoryHistory/list],参数类型[param],参数:[{"pageSize":["10"],"pageNum":["1"]}]
+2025-06-06 16:46:52 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /wms/inventoryHistory/list],耗时:[16]毫秒
+2025-06-06 16:46:58 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /wms/inventory/boardList/warehouse],参数类型[param],参数:[{"pageSize":["10"],"pageNum":["1"]}]
+2025-06-06 16:46:58 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /wms/inventory/boardList/warehouse],耗时:[13]毫秒
+2025-06-06 16:48:20 [XNIO-1 task-4] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /system/dict/data/type/wms_receipt_status],无参数
+2025-06-06 16:48:20 [XNIO-1 task-3] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /system/dict/data/type/wms_receipt_type],无参数
+2025-06-06 16:48:20 [XNIO-1 task-4] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /system/dict/data/type/wms_receipt_status],耗时:[3]毫秒
+2025-06-06 16:48:20 [XNIO-1 task-3] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /system/dict/data/type/wms_receipt_type],耗时:[3]毫秒
+2025-06-06 16:48:20 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /wms/receiptOrder/list],参数类型[param],参数:[{"pageSize":["10"],"pageNum":["1"]}]
+2025-06-06 16:48:20 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /wms/receiptOrder/list],耗时:[31]毫秒
+2025-06-06 16:50:44 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /wms/inventory/boardList/warehouse],参数类型[param],参数:[{"pageSize":["10"],"pageNum":["1"]}]
+2025-06-06 16:50:44 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /wms/inventory/boardList/warehouse],耗时:[8]毫秒
+2025-06-06 16:51:24 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /wms/itemBrand/listNoPage],无参数
+2025-06-06 16:51:24 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /wms/itemBrand/listNoPage],耗时:[6]毫秒
+2025-06-06 16:51:26 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /wms/itemSku/list],参数类型[param],参数:[{"pageSize":["10"],"pageNum":["1"]}]
+2025-06-06 16:51:26 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /wms/itemSku/list],耗时:[24]毫秒
+2025-06-06 16:51:28 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /wms/warehouse/listNoPage],无参数
+2025-06-06 16:51:28 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /wms/warehouse/listNoPage],耗时:[8]毫秒
+2025-06-06 16:51:29 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /system/dict/data/type/merchant_type],无参数
+2025-06-06 16:51:29 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /system/dict/data/type/merchant_type],耗时:[5]毫秒
+2025-06-06 16:51:29 [XNIO-1 task-3] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /wms/merchant/list],参数类型[param],参数:[{"pageSize":["10"],"pageNum":["1"]}]
+2025-06-06 16:51:29 [XNIO-1 task-3] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /wms/merchant/list],耗时:[16]毫秒
+2025-06-06 16:52:54 [XNIO-1 task-3] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /system/dict/data/type/wms_shipment_status],无参数
+2025-06-06 16:52:54 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /system/dict/data/type/wms_shipment_type],无参数
+2025-06-06 16:52:54 [XNIO-1 task-3] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /system/dict/data/type/wms_shipment_status],耗时:[4]毫秒
+2025-06-06 16:52:54 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /system/dict/data/type/wms_shipment_type],耗时:[7]毫秒
+2025-06-06 16:52:54 [XNIO-1 task-4] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /wms/shipmentOrder/list],参数类型[param],参数:[{"pageSize":["10"],"pageNum":["1"]}]
+2025-06-06 16:52:54 [XNIO-1 task-4] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /wms/shipmentOrder/list],耗时:[39]毫秒
+2025-06-06 16:52:54 [XNIO-1 task-4] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /wms/receiptOrder/list],参数类型[param],参数:[{"pageSize":["10"],"pageNum":["1"]}]
+2025-06-06 16:52:54 [XNIO-1 task-4] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /wms/receiptOrder/list],耗时:[12]毫秒
+2025-06-06 16:53:01 [XNIO-1 task-4] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /wms/shipmentOrder/list],参数类型[param],参数:[{"pageSize":["10"],"pageNum":["1"]}]
+2025-06-06 16:53:01 [XNIO-1 task-4] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /wms/shipmentOrder/list],耗时:[11]毫秒
+2025-06-06 16:53:04 [XNIO-1 task-4] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /system/dict/data/type/wms_movement_status],无参数
+2025-06-06 16:53:04 [XNIO-1 task-4] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /system/dict/data/type/wms_movement_status],耗时:[2]毫秒
+2025-06-06 16:53:04 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /wms/movementOrder/list],参数类型[param],参数:[{"pageSize":["10"],"pageNum":["1"]}]
+2025-06-06 16:53:05 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /wms/movementOrder/list],耗时:[23]毫秒
+2025-06-06 16:53:07 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /wms/shipmentOrder/list],参数类型[param],参数:[{"pageSize":["10"],"pageNum":["1"]}]
+2025-06-06 16:53:07 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /wms/shipmentOrder/list],耗时:[11]毫秒
+2025-06-06 16:53:08 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /wms/receiptOrder/list],参数类型[param],参数:[{"pageSize":["10"],"pageNum":["1"]}]
+2025-06-06 16:53:08 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /wms/receiptOrder/list],耗时:[22]毫秒
+2025-06-06 16:54:29 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /wms/inventoryHistory/list],参数类型[param],参数:[{"pageSize":["10"],"pageNum":["1"]}]
+2025-06-06 16:54:29 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /wms/inventoryHistory/list],耗时:[8]毫秒
+2025-06-06 16:54:33 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /wms/inventory/boardList/warehouse],参数类型[param],参数:[{"pageSize":["10"],"pageNum":["1"]}]
+2025-06-06 16:54:33 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /wms/inventory/boardList/warehouse],耗时:[21]毫秒
+2025-06-06 16:56:45 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /getInfo],无参数
+2025-06-06 16:56:45 [XNIO-1 task-3] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /wms/merchant/listNoPage],无参数
+2025-06-06 16:56:45 [XNIO-1 task-2] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /getInfo],耗时:[24]毫秒
+2025-06-06 16:56:45 [XNIO-1 task-5] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /wms/itemCategory/listNoPage],无参数
+2025-06-06 16:56:45 [XNIO-1 task-4] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /wms/warehouse/listNoPage],无参数
+2025-06-06 16:56:45 [XNIO-1 task-3] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /wms/merchant/listNoPage],耗时:[19]毫秒
+2025-06-06 16:56:45 [XNIO-1 task-5] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /wms/itemCategory/listNoPage],耗时:[8]毫秒
+2025-06-06 16:56:45 [XNIO-1 task-4] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /wms/warehouse/listNoPage],耗时:[6]毫秒
+2025-06-06 16:56:45 [XNIO-1 task-5] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /getRouters],无参数
+2025-06-06 16:56:45 [XNIO-1 task-4] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /wms/itemCategory/treeselect],无参数
+2025-06-06 16:56:45 [XNIO-1 task-5] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /getRouters],耗时:[38]毫秒
+2025-06-06 16:56:45 [XNIO-1 task-4] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /wms/itemCategory/treeselect],耗时:[31]毫秒
+2025-06-06 16:56:45 [XNIO-1 task-4] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /wms/itemBrand/listNoPage],无参数
+2025-06-06 16:56:45 [XNIO-1 task-4] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /wms/itemBrand/listNoPage],耗时:[9]毫秒
+2025-06-06 16:56:46 [XNIO-1 task-4] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /wms/inventory/boardList/warehouse],参数类型[param],参数:[{"pageSize":["10"],"pageNum":["1"]}]
+2025-06-06 16:56:46 [XNIO-1 task-4] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /wms/inventory/boardList/warehouse],耗时:[22]毫秒
+2025-06-06 16:56:48 [XNIO-1 task-4] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /wms/inventory/boardList/item],参数类型[param],参数:[{"pageSize":["10"],"pageNum":["1"]}]
+2025-06-06 16:56:48 [XNIO-1 task-4] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /wms/inventory/boardList/item],耗时:[8]毫秒
+2025-06-06 16:56:53 [XNIO-1 task-4] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /wms/inventory/boardList/warehouse],参数类型[param],参数:[{"pageSize":["10"],"pageNum":["1"]}]
+2025-06-06 16:56:53 [XNIO-1 task-4] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /wms/inventory/boardList/warehouse],耗时:[9]毫秒
+2025-06-06 16:56:58 [XNIO-1 task-4] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]开始请求 => URL[GET /wms/inventory/boardList/item],参数类型[param],参数:[{"pageSize":["10"],"pageNum":["1"]}]
+2025-06-06 16:56:58 [XNIO-1 task-4] INFO  c.r.c.w.i.PlusWebInvokeTimeInterceptor - [PLUS]结束请求 => URL[GET /wms/inventory/boardList/item],耗时:[7]毫秒
+2025-06-06 20:50:49 [SpringApplicationShutdownHook] INFO  io.undertow - stopping server: Undertow - 2.3.13.Final
+2025-06-06 20:50:49 [SpringApplicationShutdownHook] INFO  io.undertow.servlet - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2025-06-06 20:50:49 [SpringApplicationShutdownHook] INFO  c.r.c.core.config.ThreadPoolConfig - ====关闭后台任务任务线程池====
+2025-06-06 20:50:49 [SpringApplicationShutdownHook] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource start closing ....
+2025-06-06 20:50:49 [SpringApplicationShutdownHook] INFO  c.b.d.d.d.DefaultDataSourceDestroyer - dynamic-datasource close the datasource named [slave] success,
+2025-06-06 20:50:49 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - master - Shutdown initiated...
+2025-06-06 20:50:49 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - master - Shutdown completed.
+2025-06-06 20:50:49 [SpringApplicationShutdownHook] INFO  c.b.d.d.d.DefaultDataSourceDestroyer - dynamic-datasource close the datasource named [master] success,
+2025-06-06 20:50:49 [SpringApplicationShutdownHook] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource all closed success,bye

@@ -1,0 +1,1 @@
+{"doc":" 出库单业务对象 wms_shipment_order\n\n @author zcc\n @date 2024-08-01\n","fields":[{"name":"optType","doc":" 入库类型\n"},{"name":"bizOrderNo","doc":" 订单号\n"},{"name":"merchantId","doc":" 对接商户\n"},{"name":"warehouseId","doc":" 仓库id\n"}],"enumConstants":[],"methods":[],"constructors":[]}

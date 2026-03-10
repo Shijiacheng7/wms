@@ -1,0 +1,1 @@
+{"doc":"","fields":[{"name":"id","doc":" 物料类型id\n"},{"name":"parentId","doc":" 父物料类型id\n"},{"name":"ancestors","doc":" 祖级列表\n"},{"name":"categoryName","doc":" 物料类型名称\n"},{"name":"orderNum","doc":" 显示顺序\n"},{"name":"status","doc":" 物料类型状态（0正常 1停用）\n"},{"name":"children","doc":" 子物料类型\n"}],"enumConstants":[],"methods":[],"constructors":[]}

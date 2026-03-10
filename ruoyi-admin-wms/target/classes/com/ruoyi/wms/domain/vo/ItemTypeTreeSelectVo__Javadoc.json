@@ -1,0 +1,1 @@
+{"doc":"","fields":[{"name":"id","doc":" 节点ID\n"},{"name":"label","doc":" 节点名称\n"},{"name":"children","doc":" 子节点\n"}],"enumConstants":[],"methods":[],"constructors":[]}

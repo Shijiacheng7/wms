@@ -1,0 +1,1 @@
+{"doc":" 库存盘点单据对象 wms_check_order\n\n @author zcc\n @date 2024-08-13\n","fields":[{"name":"warehouseId","doc":" 仓库id\n"}],"enumConstants":[],"methods":[],"constructors":[]}

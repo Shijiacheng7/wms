@@ -1,0 +1,1 @@
+{"doc":" 库存盘点单据详情视图对象 wms_check_order_detail\n\n","fields":[{"name":"checkQuantity","doc":" 盘点数量\n"},{"name":"inventoryId","doc":" 库存id\n"}],"enumConstants":[],"methods":[],"constructors":[]}

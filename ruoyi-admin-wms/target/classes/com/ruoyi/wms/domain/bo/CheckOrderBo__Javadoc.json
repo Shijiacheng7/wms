@@ -1,0 +1,1 @@
+{"doc":" 库存盘点单据业务对象 wms_check_order\n\n","fields":[{"name":"warehouseId","doc":" 仓库id\n"}],"enumConstants":[],"methods":[],"constructors":[]}

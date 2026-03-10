@@ -1,0 +1,1 @@
+{"doc":" 出库单详情对象 wms_shipment_order_detail\n\n @author zcc\n @date 2024-08-01\n","fields":[{"name":"warehouseId","doc":" 所属仓库\n"}],"enumConstants":[],"methods":[],"constructors":[]}

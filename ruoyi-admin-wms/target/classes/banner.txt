@@ -1,0 +1,2 @@
+Application Version: 5.2.0
+Spring Boot Version: 3.2.6

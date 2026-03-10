@@ -1,0 +1,18 @@
+{
+  "groups": [
+    {
+      "name": "security",
+      "type": "com.ruoyi.common.security.config.properties.SecurityProperties",
+      "sourceType": "com.ruoyi.common.security.config.properties.SecurityProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "security.excludes",
+      "type": "java.lang.String[]",
+      "description": "排除路径",
+      "sourceType": "com.ruoyi.common.security.config.properties.SecurityProperties"
+    }
+  ],
+  "hints": []
+}

@@ -1,0 +1,16 @@
+E:\JAVA\wms-ruoyi-master\ruoyi-common\ruoyi-common-mybatis\src\main\java\com\ruoyi\common\mybatis\config\MybatisPlusConfig.java
+E:\JAVA\wms-ruoyi-master\ruoyi-common\ruoyi-common-mybatis\src\main\java\com\ruoyi\common\mybatis\core\domain\BaseEntity.java
+E:\JAVA\wms-ruoyi-master\ruoyi-common\ruoyi-common-mybatis\src\main\java\com\ruoyi\common\mybatis\handler\MybatisExceptionHandler.java
+E:\JAVA\wms-ruoyi-master\ruoyi-common\ruoyi-common-mybatis\src\main\java\com\ruoyi\common\mybatis\core\page\TableDataInfo.java
+E:\JAVA\wms-ruoyi-master\ruoyi-common\ruoyi-common-mybatis\src\main\java\com\ruoyi\common\mybatis\enums\DataScopeType.java
+E:\JAVA\wms-ruoyi-master\ruoyi-common\ruoyi-common-mybatis\src\main\java\com\ruoyi\common\mybatis\core\domain\BaseVo.java
+E:\JAVA\wms-ruoyi-master\ruoyi-common\ruoyi-common-mybatis\src\main\java\com\ruoyi\common\mybatis\helper\DataBaseHelper.java
+E:\JAVA\wms-ruoyi-master\ruoyi-common\ruoyi-common-mybatis\src\main\java\com\ruoyi\common\mybatis\helper\DataPermissionHelper.java
+E:\JAVA\wms-ruoyi-master\ruoyi-common\ruoyi-common-mybatis\src\main\java\com\ruoyi\common\mybatis\core\mapper\BaseMapperPlus.java
+E:\JAVA\wms-ruoyi-master\ruoyi-common\ruoyi-common-mybatis\src\main\java\com\ruoyi\common\mybatis\core\page\PageQuery.java
+E:\JAVA\wms-ruoyi-master\ruoyi-common\ruoyi-common-mybatis\src\main\java\com\ruoyi\common\mybatis\handler\InjectionMetaObjectHandler.java
+E:\JAVA\wms-ruoyi-master\ruoyi-common\ruoyi-common-mybatis\src\main\java\com\ruoyi\common\mybatis\handler\PlusDataPermissionHandler.java
+E:\JAVA\wms-ruoyi-master\ruoyi-common\ruoyi-common-mybatis\src\main\java\com\ruoyi\common\mybatis\annotation\DataPermission.java
+E:\JAVA\wms-ruoyi-master\ruoyi-common\ruoyi-common-mybatis\src\main\java\com\ruoyi\common\mybatis\annotation\DataColumn.java
+E:\JAVA\wms-ruoyi-master\ruoyi-common\ruoyi-common-mybatis\src\main\java\com\ruoyi\common\mybatis\core\domain\BaseHistoryEntity.java
+E:\JAVA\wms-ruoyi-master\ruoyi-common\ruoyi-common-mybatis\src\main\java\com\ruoyi\common\mybatis\interceptor\PlusDataPermissionInterceptor.java

@@ -1,0 +1,1 @@
+{"doc":"","fields":[{"name":"orderId","doc":" 入库单号\n"},{"name":"skuId","doc":" 规格id\n"},{"name":"quantity","doc":" 入库数量\n"},{"name":"amount","doc":" 金额\n"},{"name":"remark","doc":" 备注\n"},{"name":"warehouseId","doc":" 所属仓库\n"}],"enumConstants":[],"methods":[],"constructors":[]}

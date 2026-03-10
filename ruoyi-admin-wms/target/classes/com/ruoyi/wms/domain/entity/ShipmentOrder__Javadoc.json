@@ -1,0 +1,1 @@
+{"doc":" 出库单对象 wms_shipment_order\n","fields":[{"name":"warehouseId","doc":" 仓库id\n"},{"name":"optType","doc":" 入库类型\n"},{"name":"bizOrderNo","doc":" 业务订单号\n"},{"name":"merchantId","doc":" 供应商\n"}],"enumConstants":[],"methods":[],"constructors":[]}

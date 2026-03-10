@@ -1,0 +1,1 @@
+{"doc":" 库存盘点单据详情业务对象 wms_check_order_detail\n\n @author zcc\n @date 2024-08-13\n","fields":[{"name":"checkQuantity","doc":" 盘点数量\n"},{"name":"profitAndLoss","doc":" 盈亏数\n"},{"name":"inventoryId","doc":" 库存id\n"},{"name":"haveProfitAndLoss","doc":" 有盈亏\n"}],"enumConstants":[],"methods":[],"constructors":[]}

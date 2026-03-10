@@ -1,0 +1,1 @@
+{"doc":"","fields":[{"name":"ids","doc":" 主键集合\n"},{"name":"itemCode","doc":" 编号\n"},{"name":"itemName","doc":" 名称\n"},{"name":"itemCategory","doc":" 分类\n"},{"name":"unit","doc":" 单位类别\n"},{"name":"itemBrand","doc":" 品牌\n"},{"name":"remark","doc":" 备注\n"}],"enumConstants":[],"methods":[],"constructors":[]}

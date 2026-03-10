@@ -1,0 +1,36 @@
+2025-11-30 10:17:30 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-11-30 10:17:30 [main] INFO  com.ruoyi.test.TagUnitTest - Starting TagUnitTest using Java 17.0.2 with PID 10484 (started by admin in E:\JAVA\wms-ruoyi-master\ruoyi-admin-wms)
+2025-11-30 10:17:30 [main] INFO  com.ruoyi.test.TagUnitTest - The following 1 profile is active: "dev"
+2025-11-30 10:17:33 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource detect P6SPY plugin and enabled it
+2025-11-30 10:17:33 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Starting...
+2025-11-30 10:17:33 [main] INFO  com.zaxxer.hikari.pool.HikariPool - master - Added connection com.mysql.cj.jdbc.ConnectionImpl@729d1428
+2025-11-30 10:17:33 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Start completed.
+2025-11-30 10:17:33 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [slave] success
+2025-11-30 10:17:33 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [master] success
+2025-11-30 10:17:33 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource initial loaded [2] datasource,primary datasource named [master]
+2025-11-30 10:17:35 [main] INFO  c.r.common.redis.config.RedisConfig - 初始化 redis 配置
+2025-11-30 10:17:35 [main] INFO  org.redisson.Version - Redisson 3.29.0
+2025-11-30 10:17:40 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource start closing ....
+2025-11-30 10:17:40 [main] INFO  c.b.d.d.d.DefaultDataSourceDestroyer - dynamic-datasource close the datasource named [slave] success,
+2025-11-30 10:17:40 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Shutdown initiated...
+2025-11-30 10:17:40 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Shutdown completed.
+2025-11-30 10:17:40 [main] INFO  c.b.d.d.d.DefaultDataSourceDestroyer - dynamic-datasource close the datasource named [master] success,
+2025-11-30 10:17:40 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource all closed success,bye
+2025-11-30 10:17:59 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-11-30 10:17:59 [main] INFO  com.ruoyi.test.TagUnitTest - Starting TagUnitTest using Java 17.0.2 with PID 18772 (started by admin in E:\JAVA\wms-ruoyi-master\ruoyi-admin-wms)
+2025-11-30 10:17:59 [main] INFO  com.ruoyi.test.TagUnitTest - The following 1 profile is active: "dev"
+2025-11-30 10:18:05 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource detect P6SPY plugin and enabled it
+2025-11-30 10:18:05 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Starting...
+2025-11-30 10:18:05 [main] INFO  com.zaxxer.hikari.pool.HikariPool - master - Added connection com.mysql.cj.jdbc.ConnectionImpl@6dc7b7f
+2025-11-30 10:18:05 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Start completed.
+2025-11-30 10:18:05 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [slave] success
+2025-11-30 10:18:05 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [master] success
+2025-11-30 10:18:05 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource initial loaded [2] datasource,primary datasource named [master]
+2025-11-30 10:18:09 [main] INFO  c.r.common.redis.config.RedisConfig - 初始化 redis 配置
+2025-11-30 10:18:09 [main] INFO  org.redisson.Version - Redisson 3.29.0
+2025-11-30 10:18:14 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource start closing ....
+2025-11-30 10:18:14 [main] INFO  c.b.d.d.d.DefaultDataSourceDestroyer - dynamic-datasource close the datasource named [slave] success,
+2025-11-30 10:18:14 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Shutdown initiated...
+2025-11-30 10:18:14 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Shutdown completed.
+2025-11-30 10:18:14 [main] INFO  c.b.d.d.d.DefaultDataSourceDestroyer - dynamic-datasource close the datasource named [master] success,
+2025-11-30 10:18:14 [main] INFO  c.b.d.d.DynamicRoutingDataSource - dynamic-datasource all closed success,bye
