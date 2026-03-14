@@ -99,11 +99,23 @@ public class ShipmentOrderDetailService extends ServiceImpl<ShipmentOrderDetailM
         saveOrUpdateBatch(list);
     }
 
+    /**
+     * 根据发货订单 ID 查询订单明细列表
+     *
+     * @param shipmentOrderId 发货订单 ID
+     * @return 订单明细 VO 列表，包含商品 SKU 信息
+     */
     public List<ShipmentOrderDetailVo> queryByShipmentOrderId(Long shipmentOrderId) {
+        // 创建业务查询对象并设置订单 ID 参数
         ShipmentOrderDetailBo bo = new ShipmentOrderDetailBo();
         bo.setOrderId(shipmentOrderId);
+
+        // 执行查询获取订单明细列表
         List<ShipmentOrderDetailVo> details = queryList(bo);
+
+        // 补充商品 SKU 映射信息（如商品名称、规格等）
         itemSkuService.setItemSkuMap(details);
         return details;
     }
+
 }

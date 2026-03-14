@@ -24,9 +24,6 @@ import java.util.List;
 
 /**
  * 商品品牌
- *
- * @author zcc
- * @date 2024-07-30
  */
 @Validated
 @RequiredArgsConstructor

@@ -26,7 +26,6 @@ com\ruoyi\wms\mapper\MovementOrderDetailMapper__Javadoc.json
 com\ruoyi\wms\domain\vo\MovementOrderVo.class
 com\ruoyi\wms\domain\bo\ItemCategoryBoToItemCategoryMapper.class
 com\ruoyi\wms\controller\ItemBrandController__Javadoc.json
-com\ruoyi\RuoYiServletInitializer__Javadoc.json
 com\ruoyi\wms\controller\MovementOrderController__Javadoc.json
 com\ruoyi\wms\domain\bo\BaseOrderBo__Javadoc.json
 com\ruoyi\wms\domain\vo\BaseOrderDetailVo__Javadoc.json
@@ -186,7 +185,6 @@ com\ruoyi\wms\mapper\MovementOrderMapper__Javadoc.json
 com\ruoyi\wms\domain\entity\BaseOrder.class
 com\ruoyi\wms\domain\vo\BaseOrderDetailVo.class
 com\ruoyi\wms\domain\vo\ItemTypeTreeSelectVo__Javadoc.json
-com\ruoyi\RuoYiServletInitializer.class
 com\ruoyi\wms\domain\bo\MerchantBoToMerchantMapperImpl.class
 com\ruoyi\wms\domain\bo\MovementOrderBoToMovementOrderMapper.class
 com\ruoyi\wms\domain\entity\BaseOrderDetail.class

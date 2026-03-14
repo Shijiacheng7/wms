@@ -24,9 +24,6 @@ import java.util.Map;
 
 /**
  * 往来单位Service业务层处理
- *
- * @author zcc
- * @date 2024-07-16
  */
 @RequiredArgsConstructor
 @Service
@@ -59,11 +56,26 @@ public class MerchantService {
         return merchantMapper.selectVoList(lqw);
     }
 
+    /**
+     * 构建往来单位查询条件包装器
+     * 根据传入的业务对象动态构建查询条件，支持按编码、名称、类型进行筛选
+     *
+     * @param bo 往来单位业务对象，包含查询条件参数
+     *           - merchantCode: 企业编码（精确匹配）
+     *           - merchantName: 企业名称（模糊匹配）
+     *           - merchantType: 企业类型（精确匹配）
+     * @return LambdaQueryWrapper<Merchant> 查询条件包装器，用于数据库查询
+     */
     private LambdaQueryWrapper<Merchant> buildQueryWrapper(MerchantBo bo) {
+        // 获取业务对象中的通用参数字段
         Map<String, Object> params = bo.getParams();
+        // 初始化 Lambda 查询包装器
         LambdaQueryWrapper<Merchant> lqw = Wrappers.lambdaQuery();
+        // 根据企业编码构建精确相等查询条件
         lqw.eq(StringUtils.isNotBlank(bo.getMerchantCode()), Merchant::getMerchantCode, bo.getMerchantCode());
+        // 根据企业名称构建模糊查询条件
         lqw.like(StringUtils.isNotBlank(bo.getMerchantName()), Merchant::getMerchantName, bo.getMerchantName());
+        // 根据企业类型构建精确相等查询条件
         lqw.eq(bo.getMerchantType() != null, Merchant::getMerchantType, bo.getMerchantType());
         return lqw;
     }

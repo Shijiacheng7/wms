@@ -222,11 +222,6 @@
       </dependency>
       <dependency>
         <groupId>com.ruoyi</groupId>
-        <artifactId>ruoyi-generator</artifactId>
-        <version>5.2.0</version>
-      </dependency>
-      <dependency>
-        <groupId>com.ruoyi</groupId>
         <artifactId>ruoyi-system</artifactId>
         <version>5.2.0</version>
       </dependency>

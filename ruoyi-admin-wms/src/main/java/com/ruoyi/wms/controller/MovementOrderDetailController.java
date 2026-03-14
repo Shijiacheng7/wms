@@ -25,9 +25,6 @@ import java.util.List;
 
 /**
  * 库存移动详情
- *
- * @author zcc
- * @date 2024-08-09
  */
 @Validated
 @RequiredArgsConstructor

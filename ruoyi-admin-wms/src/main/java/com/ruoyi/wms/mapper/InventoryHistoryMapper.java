@@ -9,9 +9,6 @@ import org.apache.ibatis.annotations.Param;
 
 /**
  * 库存记录Mapper接口
- *
- * @author zcc
- * @date 2024-07-22
  */
 public interface InventoryHistoryMapper extends BaseMapperPlus<InventoryHistory, InventoryHistoryVo> {
 

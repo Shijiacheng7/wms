@@ -1,5 +1,5 @@
-E:\JAVA\wms-ruoyi-master\ruoyi-common\ruoyi-common-satoken\src\main\java\com\ruoyi\common\satoken\config\SaTokenConfig.java
-E:\JAVA\wms-ruoyi-master\ruoyi-common\ruoyi-common-satoken\src\main\java\com\ruoyi\common\satoken\utils\LoginHelper.java
-E:\JAVA\wms-ruoyi-master\ruoyi-common\ruoyi-common-satoken\src\main\java\com\ruoyi\common\satoken\core\service\SaPermissionImpl.java
-E:\JAVA\wms-ruoyi-master\ruoyi-common\ruoyi-common-satoken\src\main\java\com\ruoyi\common\satoken\core\dao\PlusSaTokenDao.java
-E:\JAVA\wms-ruoyi-master\ruoyi-common\ruoyi-common-satoken\src\main\java\com\ruoyi\common\satoken\handler\SaTokenExceptionHandler.java
+E:\JAVA\ruoyi-wms-master\ruoyi-common\ruoyi-common-satoken\src\main\java\com\ruoyi\common\satoken\core\dao\PlusSaTokenDao.java
+E:\JAVA\ruoyi-wms-master\ruoyi-common\ruoyi-common-satoken\src\main\java\com\ruoyi\common\satoken\handler\SaTokenExceptionHandler.java
+E:\JAVA\ruoyi-wms-master\ruoyi-common\ruoyi-common-satoken\src\main\java\com\ruoyi\common\satoken\core\service\SaPermissionImpl.java
+E:\JAVA\ruoyi-wms-master\ruoyi-common\ruoyi-common-satoken\src\main\java\com\ruoyi\common\satoken\config\SaTokenConfig.java
+E:\JAVA\ruoyi-wms-master\ruoyi-common\ruoyi-common-satoken\src\main\java\com\ruoyi\common\satoken\utils\LoginHelper.java

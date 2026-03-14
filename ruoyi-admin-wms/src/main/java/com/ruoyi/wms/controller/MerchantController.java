@@ -24,9 +24,6 @@ import java.util.List;
 
 /**
  * 往来单位
- *
- * @author zcc
- * @date 2024-07-16
  */
 @Validated
 @RequiredArgsConstructor

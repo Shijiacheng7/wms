@@ -25,9 +25,6 @@ import java.util.List;
 
 /**
  * 出库单
- *
- * @author zcc
- * @date 2024-08-01
  */
 @Validated
 @RequiredArgsConstructor

@@ -1,8 +1,8 @@
 com.ruoyi.wms.domain.vo.ItemCategoryVo
 com.ruoyi.wms.domain.bo.MerchantBo
 com.ruoyi.wms.domain.bo.MovementOrderBo
-com.ruoyi.wms.domain.bo.ItemCategoryBo
 com.ruoyi.wms.domain.vo.MerchantVo
+com.ruoyi.wms.domain.bo.ItemCategoryBo
 com.ruoyi.wms.domain.vo.CheckOrderVo
 com.ruoyi.wms.domain.vo.CheckOrderDetailVo
 com.ruoyi.wms.domain.bo.ItemSkuBo

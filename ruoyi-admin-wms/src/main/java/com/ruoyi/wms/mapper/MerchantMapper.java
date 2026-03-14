@@ -7,8 +7,6 @@ import com.ruoyi.wms.domain.entity.Merchant;
 /**
  * 往来单位Mapper接口
  *
- * @author zcc
- * @date 2024-07-05
  */
 public interface MerchantMapper extends BaseMapperPlus<Merchant, MerchantVo> {
 
